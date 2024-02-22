@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Jūsų informacija</legend>
+            <!-- suvedant "id" jis neatsirado kažkodėl -->
+            <br>
+            <label for="Vardas">Vardas:</label>
+            <input type="vardas" id="vardas" type="text" />
+            <br><br>
+            <!-- nėra sulygiuotas inputas, kad lentelės prasidetų vienodai -->
+            <label for="Pavardė">Pavardė:</label>
+            <input type="Pavardė" id="Pavardė" type="text" placeholder="Įveskite savo vardą" />
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Klausimai</legend>
+            <p>Kaip sužinojote apie mus?</p>
+            <!-- Kaip padaryti kad butų tekstas ir pasirinkimas vienoje eilutė? -->
+            <select name="Iš kur" id="Iš kur">
+                <option value="Google">Google</option>
+                <option value="Rekomendacija">Rekomendacija</option>
+            </select>
+
+            <form action="">
+                <p>Ar apsilankysite vėl?</p>
+                <label for="Taip">Taip</label>
+                <input name="Ar" id="Taip" type="radio" />
+
+                <label for="Ne">Ne</label>
+                <input name="Ar" id="Ne" type="radio" />
+
+                <label for="Galbut">Galbut</label>
+                <input name="Ar" id="Galbut" type="radio" />
+            </form>
+
+
+            <form action="">
+                <!-- kaip padaryti kad tekstas butu pilkas -->
+                <p><label for="Atsiliepimas">Ką manote apie kursą?</label></p>
+                <textarea id="Atsiliepimas" name="Atsiliepimas" rows="8"
+                    cols="80">Rašykite viską ką galvojate...</textarea>
+            </form>
+
+            <form action="">
+                <p>Pažymėkite programavimo/žymėjimo kalbas, su kuriomis susipažinę</p>
+
+                <label for="C#"> C#</label>
+                <input type="checkbox" id="C#" name="C#" value="C#">
+
+                <label for="java"> Java</label>
+                <input type="checkbox" id="java" name="java" value="java">
+
+                <label for="PHP"> PHP</label>
+                <input type="checkbox" id="PHP" name="PHP" value="PHP"><br>
+
+                <label for="HTML"> HTML</label>
+                <input type="checkbox" id="HTML" name="HTML" value="HTML">
+
+                <label for="CSS"> CSS</label>
+                <input type="checkbox" id="CSS" name="CSS" value="CSS">
+
+                <label for="JavaScript"> JavaScript</label>
+                <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript"><br>
+
+                <label for="Python"> Python</label>
+                <input type="checkbox" id="Python" name="Python" value="Python">
+
+                <label for="Ruby"> Ruby</label>
+                <input type="checkbox" id="Ruby" name="Ruby" value="Ruby">
+                <br>
+                <br>
+                <br>
+
+                <button>Siųsti</button>
+
+            </form>
+
+        </fieldset>
+</body>
+
+</html>

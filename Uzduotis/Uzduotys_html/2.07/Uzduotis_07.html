@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzduotis_07</title>
+</head>
+
+<body>
+
+    <h1>Registracijos forma</h1>
+    <br>
+    <form action="">
+        <fieldset>
+            <legend>STUDENTAS</legend>
+            <!-- Kaip padaryti lentelę, kad suligiuoti -->
+            <label for="Vardas:">Vardas:</label>
+            <input type="Vardas:" id="Vardas:" type="text" />
+            <br>
+            <br>
+            <!-- vienur input type kitur name ar turi čia reišmės? -->
+            <label for="El.paštas:">El.paštas:</label>
+            <input type="email" id="El.paštas:" type="email" />
+            <br>
+            <br>
+            <label for="Gimimo data:">Gimimo data:</label>
+            <input type="date" id="Gimimo data:" name="Gimimo data:">
+            <br>
+            <br>
+            <label for="Adresas:">Adresas:</label>
+            <input type="Adresas:" id="Adresas:" type="text" />
+            <br>
+    </form>
+    <form action="">
+        <p><label for="Papildoma informacija">Papildoma informacija</label></p>
+        <textarea id="Papildoma informacija" name="Papildoma informacija" rows="6" cols="100"></textarea>
+        </fieldset>
+    </form>
+    <h1>Jūsų pomėgiai</h1>
+    <form action="">
+        <fieldset>
+            <legend>PASIRINKITE SAVO POMĖGIUS</legend>
+            <p>Jūsų mėgstamiausias sportas?</p>
+            <label for="Krepšinis"> Krepšinis</label>
+            <input type="checkbox" id="Krepšinis" name="Krepšinis" value="Krepšinis">
+
+            <label for="Futbolas"> Futbolas</label>
+            <input type="checkbox" id="Futbolas" name="Futbolas" value="Futbolas">
+            <br>
+            <label for="Tinklinis"> Tinklinis</label>
+            <input type="checkbox" id="Tinklinis" name="Tinklinis" value="Tinklinis">
+
+            <label for="Bėgimas"> Bėgimas</label>
+            <input type="checkbox" id="Bėgimas" name="Bėgimas" value="Bėgimas">
+            <br>
+            <label for="Rėgbis"> Rėgbis</label>
+            <input type="checkbox" id="Rėgbis" name="Rėgbis" value="Rėgbis">
+
+            <label for="Boksas"> Boksas</label>
+            <input type="checkbox" id="Boksas" name="Boksas" value="Boksas">
+            <br>
+            <!-- Kaip padaryti kad tekstas ir pasirinkimas butu vienoje eiluiteje? -->
+            <p>Jūsų mėgstamiausias filmo žanras?</p>
+            <!-- Kaip suma=inti tarpą tarp eilučių? -->
+            <select name="Žanras" id="Žanras">
+                <option value="Komedija">Komedija</option>
+                <option value="Veiksmo">Veiksmo</option>
+            </select>
+
+            <form action="">
+                <p>Ar jums patinka keliauti?</p>
+                <!-- Kaip suma=inti tarpą tarp eilučių? -->
+                <label for="Ne">Ne</label>
+                <input name="Ar" id="Ne" type="radio" />
+
+                <label for="Galbūt">Galbūt</label>
+                <input name="Ar" id="Galbūt" type="radio" />
+
+                <label for="Taip">Taip</label>
+                <input name="Ar" id="Taip" type="radio" />
+                <br>
+                <br>
+                <button>Registruotis</button>
+            </form>
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

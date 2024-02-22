@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzduotis_08</title>
+</head>
+
+<body>
+
+    <img src="logo_vcs.jpg" alt="">
+    <h1>About</h1>
+    <p><b>Lorem</b> Ipsum is simply dummy text of the <i>printing and typesetting industry</i>. Lorem Ipsum has been the
+        industry standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen
+        book. It has survived not <br> only five centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.
+    </p>
+
+    <h2>Projects</h2>
+    <ul>
+        <li>Featured</li>
+        <br>
+        <!-- Kaip padaryti li su nuorodą? -->
+        <a href="project 1.html">Project 1</a><br>
+        <a href="project 2.html">Project 2</a>
+    </ul>
+    <br>
+    <ul>
+        <li>Latest</li>
+        <br>
+        <!-- Kaip padaryti li su nuorodą? -->
+        <a href="project 3.html">Project 3</a><br>
+        <a href="project 4.html">Project 4</a>
+    </ul>
+
+    <h2>Festival Schedule</h2>
+    <!-- kodėl neatsirado lentelės borderis? -->
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <body>
+
+        <table style="width:12%">
+            <tr>
+                <th>Time</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>9:00-12:00</td>
+                <td>Registration</td>
+            </tr>
+            <tr>
+                <td>12:00-14:00</td>
+                <td>Keynote</td>
+            </tr>
+        </table>
+
+        <h2>Sign up!</h2>
+        <!-- Kaip padaryti label pilkus
+Kaip parašyti tekstą label -->
+        <form action="">
+            <label for="text">Name:</label>
+            <input type="Name:" id="Name:" type="text" />
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="text" required />
+            <br>
+            <br>
+            <label for="text">Location:</label>
+            <!-- Kaip parašyti tekstą label -->
+            <!-- Kaip padaryti kitokį pasirinkimą -->
+            <select name="Iš kur" id="Iš kur">
+                <option value="Choose city1">Choose city1</option>
+                <option value="Choose city2">Choose city2</option>
+            </select>
+        </form>
+        <form action="">
+            <label for="text">Gender:</label>
+            <!-- Kaip padaryti, kad radio apskritimas butų per vidury? -->
+            <label for="Female">Female</label>
+            <input name="Gender" id="Female" type="radio" />
+
+            <label for="Male">Male</label>
+            <input name="Gender" id="Male" type="radio" />
+        </form>
+
+        <form action="">
+            <!-- kaip padaryti kad tekstas butu pilkas -->
+            <!-- Kai psumažinti tarpą tarp message ir textarea-->
+            <p><label for="Message:">Message:</label></p>
+            <textarea id="Message:" name="Message:" rows="6" cols="20">Your message</textarea>
+        </form>
+        <button>Sign Up</button>
+    </body>
+
+</html>
