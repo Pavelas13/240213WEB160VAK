@@ -1,0 +1,146 @@
+
+/* kaip atitraukti iš šonų kad būtų baltas remelis? */
+/* Kaip sutraukti tekstą kad butų kaip užduotyje? */
+/* Ką daryti kai pvz išsaugojau išjungiau o kai įjungiau pasirodo ištriniau ko nereikėjo ištrinti? */
+
+* {
+    background-color: rgb(214, 209, 209);
+}
+
+h1 {
+    color: grey;
+    background-color: rgb(232, 231, 231);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+div.R14 p {
+    color: #ffffff;
+    background-color: #0088dd;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 12;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R13 p {
+    color: #ffffff;
+    background-color: #0095e2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R12 p {
+    color: #ffffff;
+    background-color: #00a0e6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R11 p {
+    color: #ffffff;
+    background-color: #30aae9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R10 p {
+    color: #ffffff;
+    background-color: #54b6ed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+div.R9 p {
+    color: #ffffff;
+    background-color: #72c1f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R9 p {
+    color: #ffffff;
+    background-color: #6db9eb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R8 p {
+    color: #ffffff;
+    background-color: #8ccaf2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R7 p {
+    color: #ffffff;
+    background-color: #00bb88;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R6 p {
+    color: #ffffff;
+    background-color: #f5b0cc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R5 p {
+    color: #ffffff;
+    background-color: #f69fc0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R4 p {
+    color: #ffffff;
+    background-color: #f58cb2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R3 p {
+    color: #ffffff;
+    background-color: #f47ba6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R2 p {
+    color: #ffffff;
+    background-color: #d86e93;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R1 p {
+    color: #ffffff;
+    background-color: #c25e81;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.R0 p {
+    color: #ffffff;
+    background-color: #a14a68;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
