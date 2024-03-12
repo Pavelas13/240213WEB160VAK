@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-image: url(../images/drift.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.header nav {
+    display: flex;  
+    justify-content: space-between; 
+    margin-top: 23px;
+}
