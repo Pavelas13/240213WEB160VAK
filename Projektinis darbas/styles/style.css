@@ -104,23 +104,7 @@ body {
     margin-top: 140px;
 }
 
-
-/* .image1{
-    width: 315px;
-    height: 474px;
-    top: 113px;
-    left: 928px;
-    border-radius: 20px;
-    border: 10px solid #D1D1D1B2;
-} */
-
 .drift h1 {
-    /* margin-right: 80px; */
-    /* width: 391px; */
-    /* height: 158px; */
-    /* left: 929px; */
-    /* top: 98px; */
-
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -128,7 +112,6 @@ body {
     text-align: right;
     text-transform: uppercase;
     margin-top: 0px;
-    /* padding-right: 80px; */
 
     color: #FFFFFF;
 }
@@ -161,61 +144,146 @@ body {
     margin-left: 30px;
 }
 
-.middle {
-
-    /* background-position: center;
-    background-size: cover; */
-    /* Group 231 */
-
-    /* position: absolute; */
+.youtube-cover {
+    display: flex;
     width: 1240px;
-    height: 658.15px;
-    left: 81.8px;
-    top: 800px;
-    margin: 75px;
+    margin-top: 70.38px;
+    margin-left: 50px;
+    margin-bottom: 63.48px;
 }
 
-.pikts-nissanas-lekia {
+.youtube-cover table tr td{
+    position: static;
+    /* top: 870.38px; */
+    top: 0px;
+    
+}
+
+.youtube-cover table tr td:first-child {
+    padding-right: 24px;
+}
+
+.youtube-cover table tr td:last-child {
+    padding-left: 24px;
+}
+
+.youtube-cover table p {
+    /* Pokalbis su Benediktu Čirba apie pasirengimą. Užduokite klausimus... */
+
+    /* position: absolute; */
+    width: 316.97px;
+    height: 27.66px;
+    /* left: 1004.83px;
+bottom: 1326.16px; */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 98.9%;
+    text-align: start;
+    /* or 12px */
+
+    color: #5C5C5C;
+}
+
+.youtube-cover table .pav-1 {
+position: relative;
+top: 0px;
+}
+
+.youtube-cover .videos {
+    /* #pikts nissanas lekia! Geriausi 2020 sezono kadrai! Kažkas kuria nuostabią muziką, gal dainuoja laabai gerai. Bet tikiu, kad ne vienam šiurpuliukai eina per kūną kuomet 2jz variklis nuriaumoja 170km/h greičiu. Nissan akordai patys gražiausi, turbinos darbas tarsi geriausias simfoninis orkestras. Tiesiog reikia diriguoti už vairo, jausti tai ka darai, važiuoti taip kaip gali! Nesvarbu kas už tavo nugaros , svarbu kas tavo priekyje. Life passion for everyone! #rugstus nissanas */
+
+    position: absolute;
+    width: 705.41px;
+    height: 206.32px;
+    left: 81.8px;
+    bottom: 1047.22px;
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 98.9%;
+    /* or 30px */
+    color: #202020;
+}
+
+.youtube-cover .videos p {
 
     /* #pikts nissanas lekia! Geriausi 2020 sezono kadrai! Kažkas kuria nuostabią muziką, gal dainuoja laabai gerai. Bet tikiu, kad ne vienam šiurpuliukai eina per kūną kuomet 2jz variklis nuriaumoja 170km/h greičiu. Nissan akordai patys gražiausi, turbinos darbas tarsi geriausias simfoninis orkestras. Tiesiog reikia diriguoti už vairo, jausti tai ka darai, važiuoti taip kaip gali! Nesvarbu kas už tavo nugaros , svarbu kas tavo priekyje. Life passion for everyone! #rugstus nissanas */
 
-position: absolute;
-width: 705.41px;
-height: 206.32px;
-left: 81.8px;
+    position: absolute;
+    width: 705.41px;
+    height: 206.32px;
+    /* left: 81.8px;
+    bottom: 1047.22px; */
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 98.9%;
-/* or 30px */
-
-color: #202020;
-
-
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5C5C5C;
 }
 
-.pikts-nissanas-lekia p{
-    font-family: 'Montserrat';
+
+.videos p {
+    /* font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;   
+    font-size: 14px;    */
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
-.videos img{
+.videos img {
     /* height: 474px;
     margin-left: 276px;
     width: 335px; */
 
-/* Group 303 */
+    /* Group 303 */
 
     position: absolute;
     width: 136px;
     height: 136px;
     margin-left: 285px;
     /* top: 4452px; */
-
     margin-top: 98px;
     margin-bottom: 348px;
 }
@@ -307,10 +375,10 @@ color: #202020;
 }
 
 .rectangle2 table tr td {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 18px;
-color: #202020;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #202020;
 }
