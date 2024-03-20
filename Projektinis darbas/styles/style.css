@@ -7,6 +7,44 @@ body {
     font-family: 'Montserrat';
 }
 
+body.inner-page {
+    padding-top: 75px;
+}
+
+.small-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+}
+
+.small-container .videos img.pav-2 {
+    width: 100%;
+}
+
+.small-container .videos img.pav-1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+
+  div .gallery a {
+    width: calc((100% / 4) - ((3 / 4) * 15px));
+  }
+
+  div .gallery a img {
+    width: 100%;
+  }
+
+
 .header {
     background-image: url(../images/drift.png);
     background-position: center;
@@ -16,6 +54,11 @@ body {
 
 .page-header {
     background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
 }
 
 .container,
@@ -62,6 +105,10 @@ body {
     display: inline-block;
     margin-top: -5px;
 }
+
+
+
+
 
 .top-menu a:nth-of-type(1) {
     margin-left: 0px;
@@ -165,14 +212,12 @@ body {
     margin-right: 30px;
     display: inline-block;
     flex-direction: center;
-    /* column-gap: 15px; */
 }
 
 .social-media a {
     margin-left: 30px;
     display: inline-block;
     flex-direction: center;
-    /* column-gap: 15px; */
 }
 
 .youtube-cover {
@@ -218,7 +263,7 @@ body {
     top: 0px;
 }
 
-.youtube-cover .videos {
+.latest .videos {
     position: relative;
 }
 
