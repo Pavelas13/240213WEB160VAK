@@ -14,7 +14,12 @@ body {
     overflow: hidden;
 }
 
-.container {
+.page-header {
+    background-color: black;
+}
+
+.container,
+.container2 {
     width: 1250px;
     margin: 0 auto;
 }
@@ -25,10 +30,24 @@ body {
     margin-top: 15px;
 }
 
+.page-header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 100%;
+}
+
 .header nav .menu,
-.header nav .toolbox {
+.header nav .toolbox,
+.page-header nav .menu,
+.page-header nav .toolbox  {
     display: flex;
     align-items: center;
+}
+
+.header nav .toolbox,
+.page-header nav .toolbox {
+    column-gap: 30px;
 }
 
 .header .container.hero-content {
@@ -37,12 +56,19 @@ body {
     margin-top: 105px;
 }
 
-.toolbox img {
-    margin-left: 30px;
+.container2 .menu{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    margin-top: -5px;
 }
 
-.menu a {
-    font-style: normal;
+.top-menu a:nth-of-type(1) {
+    margin-left: 0px;
+}
+
+.menu a,
+.top-menu a {
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
@@ -54,6 +80,10 @@ body {
 }
 
 .menu a:nth-of-type(1) {
+    margin-left: 0px;
+}
+
+.top-menu a:nth-of-type(1) {
     margin-left: 0px;
 }
 
@@ -71,8 +101,6 @@ body {
 }
 
 .rectangle p.upper-text {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 138.5%;
@@ -82,8 +110,6 @@ body {
 }
 
 .rectangle h2 {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 98.9%;
@@ -93,7 +119,6 @@ body {
 }
 
 .rectangle p.bottom-text {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -129,6 +154,7 @@ body {
     align-items: center;
 }
 
+
 .language a {
     font-style: normal;
     font-weight: 600;
@@ -137,10 +163,16 @@ body {
     text-align: center;
     text-transform: capitalize;
     margin-right: 30px;
+    display: inline-block;
+    flex-direction: center;
+    /* column-gap: 15px; */
 }
 
 .social-media a {
     margin-left: 30px;
+    display: inline-block;
+    flex-direction: center;
+    /* column-gap: 15px; */
 }
 
 .youtube-cover {
@@ -174,8 +206,6 @@ body {
 .youtube-cover table p {
     width: 316.97px;
     height: 27.66px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 98.9%;
@@ -184,8 +214,8 @@ body {
 }
 
 .youtube-cover table .pav-1 {
-position: relative;
-top: 0px;
+    position: relative;
+    top: 0px;
 }
 
 .youtube-cover .videos {
@@ -203,26 +233,14 @@ top: 0px;
     transform: translate(-50%, -50%);
 }
 
-.youtube-cover .videos p {
-    position: absolute;
-    width: 705.41px;
-    height: 206.32px;
-    font-family: Montserrat;
-    font-style: normal;
+.youtube-cover .latest p {
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     color: #5C5C5C;
 }
 
-.youtube-cover .videos h1 {
-    position: absolute;
-    width: 705.41px;
-    height: 206.32px;
-    left: 81.8px;
-    bottom: 1047.22px;
-    font-family: Montserrat;
-    font-style: normal;
+.youtube-cover .latest h2 {
     font-weight: 600;
     font-size: 28px;
     line-height: 98.9%;
@@ -249,8 +267,6 @@ top: 0px;
 .youtube-cover .other-news .news-item .description h6 {
     margin: 0 0 11px 0;
     position: static;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 98.9%;
@@ -295,8 +311,6 @@ top: 0px;
 }
 
 .bottom a {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
@@ -310,10 +324,13 @@ top: 0px;
 .bottom2 {
     text-align: center;
     margin: 37px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
 }
 
 .bottom2 img {
-    margin-inline: 15px;
+    /* margin-inline: 15px; */
 }
 
 .rectangle2 {
@@ -327,8 +344,6 @@ top: 0px;
 }
 
 .rectangle2 h2 {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 98.9%;
@@ -350,8 +365,6 @@ top: 0px;
 }
 
 .rectangle2 table tr td {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
